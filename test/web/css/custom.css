@@ -1,0 +1,82 @@
+#mainbody{
+
+}
+#sidebar{
+
+}
+body{
+    background-image: url("../img/gplaypattern.png");
+    background-color: #EEE;
+    background-repeat: repeat;
+}
+.dd-panel{
+    margin: 10px auto;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px soid #444;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #AAA;
+    background-color: rgba(245,245,255,0.5);
+}
+#person-or-team{
+    border: 10px soid #666;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: auto;
+}
+
+#footer{
+    color: #888;
+}
+
+.panel{
+    background-color: rgba(245,245,255,0.5);
+    box-shadow: 1px 1px 3px #AAA;
+}
+.tab-content{
+    background-color: rgba(245,245,255,0.5);
+    
+    border: 1px solid #DDD;
+    border-top: none;
+    box-shadow: 1px 1px 3px #AAA;
+}
+.nav-tabs{
+    box-shadow: 4px 0px 2px -2px #AAA;
+}
+/*
+.list-group{
+    background-color: rgba(245,245,255,0.5);
+}
+*/
+/*
+.dd-content {
+    background-color: #D9EEF2;
+    border: 1px none #64A1AE;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px #64A1AE;
+}
+.zan-post {
+    position: relative;
+    background-color: #FFF;
+    padding: 0px 20px 20px;
+    margin-bottom: 20px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Microsoft YaHei";
+    word-wrap: break-word;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+*/
