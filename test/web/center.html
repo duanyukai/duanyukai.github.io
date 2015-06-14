@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			东北大学学生活动报名系统
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/centercustom.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div id="header">
+        	<nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dd-navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                       </button>
+                    <a class="navbar-brand" href="#">东北大学</a>
+                </div>
+                <div class="collapse navbar-collapse" id="dd-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">首页</a></li>
+                        <li class="active"><a href="#">报名页面</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">其他链接<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">测试1</a></li>
+                                <li><a href="#">测试2</a></li>
+                                <li><a href="#">测试3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">测试4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="bodyer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12" id="personal-info">
+                        <img src="img/touxiang2.jpg" id="touxiang"/>
+                        <h3 class="text-center" style="text-shadow: 2px 2px #AAA;">张三</h3>
+                        <h4 class="text-center" style="color: #888;">软件学院　软件1401班</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="" class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">基本信息</h3>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-striped table-bordered table-hover table-condensed">
+                                    <tr><td>姓名</td><td>张三</td></tr>
+                                    <tr><td>学院</td><td>软件学院</td></tr>
+                                    <tr><td>班级</td><td>软件1401</td></tr>
+                                    <tr><td>学号</td><td>20143646</td></tr>
+                                    <tr><td>手机</td><td>13745533752</td></tr>
+                                    <tr><td>邮箱</td><td>a@neu.la</td></tr>
+                                </table>
+                                <button type="button" class="btn btn-block btn-primary"  data-toggle="modal" data-target="#auth-id">
+                                    验证个人身份
+                                </button>
+                                <button type="button" class="btn btn-block btn-primary"  data-toggle="modal" data-target="#modify-info">
+                                    维护个人信息
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sidebar" class="col-md-4">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">正在参与</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="detail.html" class="list-group-item">
+                                        <h3 class="list-group-item-heading">WEB设计大赛第二期</h3>
+                                        <p>剩余1天12小时</p>
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar" style="width: 90%"></div>
+                                        </div>
+                                    </a>
+                                    <a href="detail.html" class="list-group-item">
+                                        <h3 class="list-group-item-heading">数学建模校内选拔赛</h3>
+                                        <p>剩余10天22小时</p>
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar" style="width: 20%"></div>
+                                        </div>
+                                    </a>
+                                    <a href="detail.html" class="list-group-item">
+                                        <h3 class="list-group-item-heading">朗诵比赛</h3>
+                                        <p>即时项目：倒计时25天10小时</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">历史参赛及证书查询</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a class="list-group-item">
+                                        <h4 class="list-group-item-heading text-center">WEB设计大赛第一期<small>一等奖</small></h4>
+                                        <p class="text-center">
+                                            <button type="button" class="btn　btn-small btn-primary">活动信息</button>
+                                            <button type="button" class="btn　btn-small btn-primary" data-toggle="modal" data-target="#cert-info">证书详情</button>
+                                        </p>
+                                    </a>
+                                    <a class="list-group-item">
+                                        <h4 class="list-group-item-heading text-center">外文歌曲大赛<small>一等奖</small></h4>
+                                        <p class="text-center">
+                                            <button type="button" class="btn　btn-small btn-primary">活动信息</button>
+                                            <button type="button" class="btn　btn-small btn-primary"　>证书详情</button>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">热门活动</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <h4 class="list-group-item-heading">朗诵比赛报名</h4>
+                                        <p class="list-group-item-text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <h4 class="list-group-item-heading">JAVA程序设计竞赛</h4>
+                                        <p class="list-group-item-text">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr/>
+                        <p class="text-center">东北大学软件1401，版权所有 2014-2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--模态框-->
+		<div class="modal fade" id="cert-info">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <h4 class="modal-title">证书信息</h4>
+					</div>
+					<div class="modal-body">
+						<h3 class="text-center">东北大学WEB设计大赛第一期</h3>
+						<h2 class="text-center">一等奖</h2>
+                        <p class="text-center">
+                            证书编码：#140102
+                        </p>
+                        <p class="text-center">
+                            <img src="img/cert.jpg" style="width: 70%;"/>
+                        </p>
+                        <div class="btn-group pull-right" role="group">
+                            <button type="button" class="btn btn-success">下载证书</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                        </div>
+                        <br>
+                        <br>
+					</div>
+					<!--<div class="modal-footer">-->
+					<!--	<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>-->
+					<!--</div>-->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+        <!--模态框-->
+		<div class="modal fade" id="auth-id">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <h4 class="modal-title">身份验证</h4>
+					</div>
+					<div class="modal-body">
+						请上传手持学生证，有信息一面朝向镜头拍摄的照片，我们将根据此来验证您的身份的真实性。
+                        <div style="width: 150px; height: 150px; border: dashed 4px #999;border-radius: 10px">暂无文件被上传</div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">选择照片</label>
+                            <input type="file" id="exampleInputFile">
+                            <p class="help-block">选择符合要求照片，大小5M以内。</p>
+                        </div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+        <div class="modal fade" id="modify-info">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <h4 class="modal-title">修改基本信息</h4>
+					</div>
+					<div class="modal-body">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <img src="img/touxiang2.jpg" id="touxiang"/>
+                                    <label for="exampleInputFile" class="col-md-3 control-label">选择照片</label>
+                                    <div class="col-md-6">
+                                        <input type="file" id="exampleInputFile">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputName" class="col-md-3 control-label">姓名</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputName" placeholder="例：张三" type="text" value="张三">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputCollege" class="col-md-3 control-label">学院</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputCollege" placeholder="例：软件学院" type="text" value="软件学院">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputMajor" class="col-md-3 control-label">专业</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputMajor" placeholder="例：软件工程" type="text" value="软件工程">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputClass" class="col-md-3 control-label">班级</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputClass" placeholder="例：1401" type="text" value="软件1401">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputMobile" class="col-md-3 control-label">手机</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputMobile" placeholder="例：13704016545" type="text" value="13704016463">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-md-3 control-label">邮箱</label>
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputEmail" placeholder="例：abc@neu.edu.cn" type="text" value="a@neu.la">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="pull-center">
+                                        <button type="reset" class="btn btn-default col-lg-5 col-lg-offset-1">重置</button>
+                                        <button type="submit" class="btn btn-primary col-lg-5 col-lg-offset-1">提交</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form><!--表单结束-->
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	</body>
+</html>
